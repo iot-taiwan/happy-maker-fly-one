@@ -16,6 +16,17 @@
 
 ## 無線充電模組
 
-這次提出的需求裡，有一個很特別的模組：Wireless Charing Module。大家希望賦與飛行器，「自動回家充電」的能力。
+這次提出的規格中，用到了一個很特別的模組：Wireless Charing Module。大家希望賦與飛行器，「自動回家充電」的能力。
 
-![](https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10931390_384280568419834_6574277745703459333_n.jpg?oh=cc117c2a2b1feb2babdb2f0e715f978b&oe=556D1FDB&__gda__=1432920931_4e18517a01f41b896c99078f8cca7fde)
+![Wireless Charing Module](https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10931390_384280568419834_6574277745703459333_n.jpg?oh=cc117c2a2b1feb2babdb2f0e715f978b&oe=556D1FDB&__gda__=1432920931_4e18517a01f41b896c99078f8cca7fde)
+
+## Building Blocks
+
+團隊開會討論飛行器專案時，提到 Building Blocks 會是一個極短專案（七天）的成功關鍵；以 Building Blocks 的觀念，進行簡易專案管理；大家開始分頭打造自已的 Block。
+
+ARM mbed 最主要的核心精神，就是 Sensor Device 封裝成 REST API 的觀念。所以這個專案最重要的 Block 就是：REST Device 的建構。
+
+![開始展開 Building Blocks](https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10846095_384280718419819_7489546409479898578_n.jpg?oh=e5c7aed8f15f6da6be602ad15ef4be1f&oe=55673F42&__gda__=1431963595_49195ca38cb3bdfce52058ee675ff72c)
+
+
+
