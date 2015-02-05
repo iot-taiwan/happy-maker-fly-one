@@ -30,5 +30,26 @@ ARM mbed 最主要的核心精神，就是 Sensor Device 封裝成 REST API 的�
 
 ![開始展開 Building Blocks](https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10846095_384280718419819_7489546409479898578_n.jpg?oh=e5c7aed8f15f6da6be602ad15ef4be1f&oe=55673F42&__gda__=1431963595_49195ca38cb3bdfce52058ee675ff72c)
 
+## WiFi & Blue Tooth
 
+飛行器的控制使用 BLE 4.0；WiFi 則是在開發階段，用來推送 Sensor Data 至 WebSocket Server。我們的專案，使用 LPC1768 開發板，開發板是 ARM Cortext-M3 MCU，以及一些主要的控制腳位，所以需要接線外接 Sensor。
 
+使用 Seeed Studio 設計與生產的 mbed Shield 板，就可以很方便地外接需要的 Sensor。所以，我們又申請了 WiFi Shield 與 Blue Tooth Shield。
+
+![](https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn1/v/t1.0-9/10646712_384280678419823_2718231352411837997_n.jpg?oh=4c3d9b23387b509fbfaf88ccbbfed85f&oe=5553C2C8&__gda__=1430830963_6e533fa3ef4b9fcff5e85bd27bb21995)
+
+## 陀螺儀
+
+陀螺儀（Single Axis Analog Gyro 與 Grove - 3-Axis Digital Gyro）的部份，獨立成一個 Block。這個 Block 的製作一個 REST API，將 Sensor Data 推送至 WebSocket。
+
+![](https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10526153_384280648419826_7971626406944975826_n.jpg?oh=6b9da59ab5660fc5dcf83815951e5236&oe=555EC3CF&__gda__=1431916407_d232292f083e7d6a7103435a6dbfda89)
+
+![](https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10426561_384280598419831_8663669645142068366_n.jpg?oh=916d0f655a69d4cfa5a56852c09d4f8d&oe=5559F61A&__gda__=1431632787_b48f1be7cfc806dac32760052f2b1536)
+
+![](https://dchtm6r471mui.cloudfront.net/hackpad.com_Ncb0ktNHpUZ_p.320451_1423112309163_%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202015-02-05%20%E4%B8%8B%E5%8D%8812.57.28.png)
+
+## GPS
+
+GPS 也是一個獨立的 Block。目前只是用來測試、把玩，暫時不會放在飛行器上。
+
+![](https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10940426_384280628419828_5298756888991316774_n.jpg?oh=97549e57af81b2d0497a0876114c00cc&oe=55538084&__gda__=1431403836_d1c0840ee35c42dd592fa78486d116dd)
