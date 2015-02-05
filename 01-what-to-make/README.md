@@ -38,11 +38,13 @@ ARM mbed 最主要的核心精神，就是 Sensor Device 封裝成 REST API 的�
 
 ![](https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn1/v/t1.0-9/10646712_384280678419823_2718231352411837997_n.jpg?oh=4c3d9b23387b509fbfaf88ccbbfed85f&oe=5553C2C8&__gda__=1430830963_6e533fa3ef4b9fcff5e85bd27bb21995)
 
+沒有使用 Shield 板的話，就要用麵包板與導線外接。
+
+![](https://camo.githubusercontent.com/de78ac16ddc9583509e7754e7158a9e8faca0eef/687474703a2f2f692e696d6775722e636f6d2f496f6d354b4d452e6a7067)
+
 ## 陀螺儀
 
 陀螺儀（Single Axis Analog Gyro 與 Grove - 3-Axis Digital Gyro）的部份，獨立成一個 Block。這個 Block 的製作一個 REST API，將 Sensor Data 推送至 WebSocket。
-
-![](https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10526153_384280648419826_7971626406944975826_n.jpg?oh=6b9da59ab5660fc5dcf83815951e5236&oe=555EC3CF&__gda__=1431916407_d232292f083e7d6a7103435a6dbfda89)
 
 ![](https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10426561_384280598419831_8663669645142068366_n.jpg?oh=916d0f655a69d4cfa5a56852c09d4f8d&oe=5559F61A&__gda__=1431632787_b48f1be7cfc806dac32760052f2b1536)
 
@@ -53,3 +55,9 @@ ARM mbed 最主要的核心精神，就是 Sensor Device 封裝成 REST API 的�
 GPS 也是一個獨立的 Block。目前只是用來測試、把玩，暫時不會放在飛行器上。
 
 ![](https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10940426_384280628419828_5298756888991316774_n.jpg?oh=97549e57af81b2d0497a0876114c00cc&oe=55538084&__gda__=1431403836_d1c0840ee35c42dd592fa78486d116dd)
+
+## 通訊模塊連連看
+
+準備就緒，開始上工。一開始要學習 LPC1786 的 Pinout，所以先使用 LPC1768 開發板，透過導線與 WiFi Shield 連接。這個時候就需要 LPC1768 的腳位卡。
+
+![](https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11719_384562985058259_1133189908999328747_n.jpg?oh=7cc3a384f9de6fc90c92db6a588045f6&oe=55635981&__gda__=1430828906_d7c04853614bcfb039ecd6b97f9984b2)
