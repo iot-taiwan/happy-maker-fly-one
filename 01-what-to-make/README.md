@@ -68,6 +68,30 @@ Bluetooth 的 Block 同樣也是，先用連連看的方式做測試。
 
 其它 Sensor Block 也同時，由大家開始認領，開始進行測試，建立每一個 Block。
 
+## 第一次的 Block 整合會議
+
+帶著堅強攻城意志，大家很有效率地陸續完成 Block 的建設。為了實現 Web of Things 的架構，還有一些關鍵問題需要解決。
+
+WoT 是 IoT 的 Application Layer，並且是使用 Web 技術來打造 application。也就是說，IoT + Web-enabled technologies 就是 WoT。對 WoT 來說，最重要的觀念，就是以 URL 來表示 IoT 裝置；為 IoT 加入 URL 的觀念，就是 Google 提出的 Physical Web 計畫。
+
+雖然 WoT 都是使用目前已經存在的軟體技術，但許多觀念都要重新思考，例如：Software Architecture、Application Framework 與 Composition Layer。因此，Mokoversity 農場計畫，也做了相關的研究。
+
+第一個實驗性質的開發專案叫 AutomationJS，這是利用 Virtual DOM 技術，來進行 UI Boundary Composition 的專案。AutomationJS 是 Mokoversity 在 WoT 方面的一個重要專案喔。
+
+AutomationJS 是一個輕量級的 Composition Layer 實作，並且使用 Backbone 做為 Model-View 的基礎；未來也將接軌 HTML 5 的新技術標準－Shadow DOM。
+
+有了 AutomationJS 後，差不多就解決了 WoT 的一個關鍵技術問題。第一次的 Block 整合會議內容如下：
+
+* Block #1：Dust Sensor + WebSocket Client 
+ * sockets.mbed.org
+ * http://sockets.mbed.org/mbedschool/viewer
+* Block #2：AutomationJS
+ * Frontend
+ * Backbone with Virtual DOM
+
+整合過程遇到一些小問題，不過在即時修改程式碼後，都獲得解決了。很快地，順利完成第一次的 Block 整合會議。在網頁上，可以即時顯示空間的灰塵指數。
+
+![](https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10247473_384920171689207_2903908610409337968_n.jpg?oh=92843bfc7e20de46bcc19acca82a0be9&oe=55541D52&__gda__=1433087451_67604bc920dc5cbecb64718ed980a53c)
 
 
 
