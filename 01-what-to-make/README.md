@@ -58,6 +58,19 @@ GPS 也是一個獨立的 Block。目前只是用來測試、把玩，暫時不�
 
 ## 通訊模塊連連看
 
-準備就緒，開始上工。一開始要學習 LPC1786 的 Pinout，所以先使用 LPC1768 開發板，透過導線與 WiFi Shield 連接。這個時候就需要 LPC1768 的腳位卡。
+準備就緒，開始上工。一開始要學習 LPC1786 的 Pinout，所以先使用 LPC1768 開發板，透過導線與 WiFi Shield 連接。這個時候就需要 LPC1768 的腳位卡。經過一陣連連看的遊戲後，終於將 ARM mbed 與 WiFi 接通。這個時候的通訊 Block 長像如下圖。
 
 ![](https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11719_384562985058259_1133189908999328747_n.jpg?oh=7cc3a384f9de6fc90c92db6a588045f6&oe=55635981&__gda__=1430828906_d7c04853614bcfb039ecd6b97f9984b2)
+
+Bluetooth 的 Block 同樣也是，先用連連看的方式做測試。
+
+![](https://scontent-a-sjc.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10959573_384563008391590_5548008232315475502_n.jpg?oh=748a1c582a049d1ac94bb61b78ffeda5&oe=55537547)
+
+其它 Sensor Block 也同時，由大家開始認領，開始進行測試，建立每一個 Block。
+
+
+
+
+
+
+
