@@ -22,7 +22,9 @@
 
 ## Building Blocks
 
-團隊開會討論飛行器專案時，提到 Building Blocks 會是一個極短專案（七天）的成功關鍵；以 Building Blocks 的觀念，進行簡易專案管理；大家開始分頭打造自已的 Block。
+團隊開會討論飛行器專案時，提到 Building Blocks 會是一個極短專案（七天）的成功關鍵；簡單說明 Building Blocks 的觀念後，大家開始分頭打造自已的 Block。
+
+Building Blocks 可以做為一個極輕量級的軟體專案管理方法，它的重點在於：每天都要有「成功的 Blocks 整合」進度。
 
 ARM mbed 最主要的核心精神，就是 Sensor Device 封裝成 REST API 的觀念。所以這個專案最重要的 Block 就是：REST Device 的建構。
 
