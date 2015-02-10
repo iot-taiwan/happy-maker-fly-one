@@ -1,4 +1,5 @@
-razyflie 2.0 - Spare 7x16 mm coreless DC motor with connector 這款馬達，這款馬達無法直接使用，Seeed Studio 的工程師協助我們，除了畫電路圖給我們，還幫我們焊了第一個測試用馬達，電路圖及測試馬達如下圖：
+# 馬達
+我們決定使用 Crazyflie 2.0 - Spare 7x16 mm coreless DC motor with connector 這款馬達，這款馬達無法直接使用，Seeed Studio 的工程師協助我們，除了畫電路圖給我們，還幫我們焊了第一個測試用馬達，電路圖及測試馬達如下圖：
 
 ![馬達電路圖](http://i.imgur.com/QeWPaHT.jpg)
 
