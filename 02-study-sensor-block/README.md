@@ -50,7 +50,7 @@ Wifi Shield 使用 RN171 Wi-Fi 模組，支援 802.11/b/g、TCP、UDP、FTP 等�
 
 4. 程式碼
 
-｀｀｀
+```
 /* mbed Microcontroller Library
  * Copyright (c) 2006-2013 ARM Limited
  *
@@ -142,17 +142,16 @@ int main(void)
         ble.waitForEvent();
     }
 }
-｀｀｀
+```
 
 5. 測試
 
 安裝 nRF UART 2.0 app
 
 下載網址：
-｀｀｀
+```
 https://play.google.com/store/apps/details?id=com.nordicsemi.nrfUARTv2
-
-｀｀｀
+```
 
 6. 結果
 
@@ -169,7 +168,7 @@ Client 端與 Arch BLE 配對成功，如下圖所示：
 
 2. 程式碼
 
-｀｀｀
+```
 #include "mbed.h"
 #include "WiflyInterface.h"
 #include "Websocket.h"
@@ -220,7 +219,7 @@ int main() {
         wait(1.0);
     }
 }
-｀｀｀
+```
 
 # Grove - 3Axis Digital Accelerometer
 
