@@ -1,5 +1,7 @@
 # Sensor - Bluetooth Low Enegy
 
+## Preface
+
 Bluetooth Low Enegy，中譯為低耗電藍芽，以下簡稱 BLE。
 
 正式進入主題之前，先談談這個小節會帶領讀者體驗哪些實作項目。
