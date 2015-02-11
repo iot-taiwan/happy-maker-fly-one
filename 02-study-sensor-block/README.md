@@ -12,13 +12,13 @@ client 端會透過一支 app 發送訊息，server 端會透過一支程式接�
 
 我們需要準備以下素材：
 
-| Name         | Quantity |
+|     Name     | Quantity |
 | ------------ | -------- |     
-| Arch BLE     |     1    | 
-| LPC 1768     |     1    |       
-| Wifi Shield  |     1    |
-| 麵包板       |     1    |
-| 導線         |    10    |
+| Arch BLE     |    1     | 
+| LPC 1768     |    1     |       
+| Wifi Shield  |    1     |
+| 麵包板       |    1     |
+| 導線         |   10     |
 
 ## 素材介紹
 
